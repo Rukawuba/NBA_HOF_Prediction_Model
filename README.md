@@ -74,3 +74,13 @@ https://www.nba.com/news/3-point-era-nba-75
 Does this mean we only take on players that take 3s? No not neccesarily...
 
 So instead I will take the 3ptenerate a players career
+
+
+
+
+
+EDA
+It will be very important to use the : from sklearn.preprocessing import MinMaxScaler
+because we have many different predictors and variables and the numbers are all over the place. For instance shooting 40% from the 3point is actually
+a great shooter as  opposed to shooting 40% from the FT which is actually terrible. 
+So using this wil
