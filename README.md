@@ -3,13 +3,13 @@
 # Hall of Fame Prediction Model
 
 ## Overview
-This repository contains code for a predictive model built using Logistic Regression to determine whether a player will be inducted into the Hall of Fame or not. The model utilizes historical data of players and their respective attributes to make predictions.
+This repository contains code for a predictive model built using Logistic Regression to determine whether a player will be inducted into the Hall of Fame. The model utilizes statistical data from both past and present players to make predictions.
 
 ## Dataset
-The dataset used for training and testing the model consists of various features including player statistics, achievements, and career milestones. Each record in the dataset represents a player, with a binary label indicating whether the player has been inducted into the Hall of Fame or not.
+The dataset used for training and testing the model consists of various features from player career statistics. Each record in the dataset represents a player, with a binary label indicating whether the player has been inducted into the Hall of Fame or not. The data has been taken from the NBA API from various tables and then combined to analyze each player's career and determine whether they have a career that would leave them in the Hall of Fame. 
 
 ## Model
-The predictive model is built using Logistic Regression, a popular algorithm for binary classification tasks. Logistic Regression calculates the probability that a given input belongs to a certain class (in this case, whether a player will make the Hall of Fame or not) based on the input features.
+The predictive model is built using Logistic Regression, a popular algorithm for binary classification tasks. Logistic Regression calculates the probability that a given input belongs to a certain class (in this case, whether a player will make the Hall of Fame or not) using players who are already currently in the Hall of Fame as a baseline metric.
 
 ## Usage
 To use the model:
@@ -24,11 +24,6 @@ The model's performance metrics such as accuracy, precision, recall, and F1-scor
 ## Contributions
 Contributions to this project are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
-Special thanks to the creators of the dataset used in this project.
+Special thanks to the creators of the NBA API dataset that was used in this project.
 Inspiration for this project came from the desire to explore predictive modeling in sports analytics.
-
-
